@@ -1,0 +1,116 @@
+.imglogo{
+    max-width: 100%;
+    height: auto;
+}
+
+.fa-star,
+.fa-star-half{
+    color: yellowgreen;
+    padding: 3% 0;
+}
+
+#cart_count{
+    text-align: center;
+    padding: 0 0.9rem 0.1rem 0.9rem;
+    border-radius: 3rem;
+}
+
+.shopping-cart{
+    padding: 3% 0;
+}
+
+.cart-items + .cart-items{
+    padding: 2% 0;
+}
+
+.price-details h6{
+    padding: 3% 2%;
+}
+div.product-main-image-wrap img:hover {
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08);
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    cursor: zoom-in;
+}
+
+div#collection-wrap .card-img-top {
+    height: 100%;
+    object-fit: contain;
+    background: white;
+}
+div#collection-wrap .shadow {
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+    overflow: hidden;
+    cursor: pointer;
+}
+.col-md-6.product-detail-image-wrap {
+    overflow: hidden;
+}
+
+#vn-click{
+padding:10px 15px;
+/*background:#FD6CA3;*/
+color:#000;
+cursor:pointer;
+display:inline-block
+}
+
+#info{
+display:none;
+text-align:center;
+color:#000;
+padding:5px 20px
+}
+
+
+img.thumbnail.active {
+    border: 1px solid ;
+}
+
+.thumbnail {
+    display: -webkit-flex;
+    height: 120px;
+    object-fit: cover;
+    width: 100px;
+    background: transparent;
+    margin: 8px;
+}
+.card.shadow {
+    height: 600px;
+}
+
+.producttitle{
+    margin: 20px 0;
+}
+/*.for5days{
+    font-family: papyrus,fantasy;
+    font-size: 14px;
+    font-weight: 900 !important;
+}*/
+
+.brand_name-wrap, .rent_days-wrap, .retail_price-wrap, .rental_charge-wrap, .size-wrap{
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .product-thumbnail-image-wrap {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .thumbnail {
+    object-fit: cover;
+    width: 64px;
+    margin: 5px; 
+}
+.col-md-4.col-lg-4.product-thumbnail-image-wrap {
+    width: 25% !important;
+}
+}
+@media (min-width: 992px){
+.col-md-4.col-lg-4.product-thumbnail-image-wrap {
+    flex: 0 0 auto;
+    width: 25%;
+}
+}
