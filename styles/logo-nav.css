@@ -1,0 +1,78 @@
+:root{
+    --color-logo-nav:#000;
+    --font-family : sans-serif;
+}
+
+
+/* ================================================= STYLE DIV WITH CLASS logo-nav  =============================== */
+/*.imglogo{
+    max-width: 100%;
+    height: auto;
+}*/
+
+.logo-nav {
+    padding:10px 10px;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logo-nav .login a{
+    color:var(--color-logo-nav);
+    text-decoration: none;
+    font-family: var(--font-family);
+}
+
+/*Styling logo*/
+
+.logo {
+    /* height: 50px; */
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin: 0 auto;
+}
+.logo-nav .logo img {
+
+    width: 185px;
+}
+
+.logo-nav .panier a{
+    font-size: 23px;
+    color:var(--color-logo-nav);
+    text-decoration: none;
+}
+
+.logo-nav .panier a sup{
+    font-family: var(--font-family);
+}
+
+
+/* ================================================================================================================= */
+
+
+/*Styling for mobile screens*/
+@media screen and (max-width: 767px){
+    .logo-nav .login a span {
+        display:none;
+    }
+
+    .logo-nav .panier a{
+        font-size: 20px;
+    }
+    .pl-5, .px-5{
+    padding: 0;
+}
+.logo-nav .logo img {
+    width: 130px;
+}
+
+.logo-nav .login, .logo-nav .panier {
+    width: 30%;
+}
+.logo-nav .logo {
+    width: 40%;
+    margin: 0 auto;
+}
+}
