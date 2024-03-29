@@ -1,0 +1,23 @@
+
+.termsheader{
+	/*margin-top: 20px;*/
+	background: blue;
+	padding: 40px 0;
+    font-size: 30px;
+    margin: 20px 10px;
+}
+
+.terms{
+	border-style: double;
+	background: white;
+	height: auto;
+	width: auto;
+
+}
+.termhead{
+	font-size: 30px;
+	text-align: center;
+}
+.detailterms{
+	    font-family: Monaco,monospace;
+}
