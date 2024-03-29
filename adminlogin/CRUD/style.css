@@ -1,0 +1,152 @@
+
+.container-fluid.admindash a {
+    text-decoration: none;
+    color: #000;
+     font-size: 18px;
+}
+.container-fluid.admindash h1 {
+    font-size: 30px;
+    margin: 0;
+}
+nav.adminnav.navbar.navbar-expand-lg.navbar-light.bg-light {
+    padding: 30px;
+}
+.container-fluid.admindash {
+    padding: 0;
+    margin: 0;
+}
+button#adminlogout:hover {
+    background: #dc0e0e;
+    text-decoration: line-through;
+    color: #fff;
+}
+ul.navbar-nav li {
+    margin: 0 15px;
+}
+#navbarNavDropdown {
+    padding-right: 0;
+}
+h1.display-4.welcome-wrap {
+	 font-size: 5.5rem;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #000;
+    text-transform: uppercase;
+    border-bottom: 2px solid #000;
+    margin-bottom: 20px;
+    line-height: 150px;
+}
+p.lead {
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+span.catadd {
+    color: red;
+}
+span.prodadd {
+    color: #13c913;
+}
+span.ed\&dlt {
+    color: purple;
+}
+span.admincolor {
+    color: red;
+}
+.jumbotron.jumbotron-fluid {
+    height: 100%;
+
+}
+div#navbarNavDropdown ul.navbar-nav {
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+.dropdown--wrapper {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+.container.admin--wrap {
+    padding: 50px;
+}
+a#categorydrp\ navbarDropdownMenuLink,
+a#productdrp\ navbarDropdownMenuLink
+ {
+    font-size: 20px;
+}
+.container-fluid.adminhome-wrap {
+    text-align: center;
+    padding: 20px;
+}
+.adminlogin{
+margin-top: 15%;
+background: #fff;
+padding: 30px;
+box-shadow: 0px 1px 36px 5px rgba(0,0,0,0.15);
+border-radius: 10px;
+max-width: 100%;
+width: 100%; 
+margin-bottom: 20px;
+
+
+}
+.adminbtn{
+box-shadow: 0px 1px 2px rgba(0,0,0,0.2);
+border: none;
+color: #fff;
+width: 100%;
+border-radius: 10px;
+
+}
+
+.form-label{
+font-size: 12px;
+}
+
+.form-control{
+border-radius: 25px;
+}
+
+
+	/*=======================================admin panel==============================*/
+	.header{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 0 50px;
+		background-color: #4e73df;
+	    border-bottom: 0.5px solid #fff;
+	}
+    .header h1 {letter-spacing: .05rem;; text-transform: uppercase; font-size: 1rem;    font-weight: 800;}
+
+
+	.header button{
+		background-color: white;
+		border: 2px solid black;
+		font-size: 1rem;
+
+		/*padding: 8px 12px;*/
+
+	}
+	.header button:hover{
+		background-color: #e70606;
+		color: #fff;
+
+	}
+
+.text-center.adminfogotpass {
+    padding: 20px 0 0 0;
+}
+.text-center.adminfogotpass a{
+	text-decoration: none;
+}
+.text-center.adminfogotpass a.small:hover{
+	text-decoration: underline;
+}
+.header.adminhead h1 {
+    color: #fff;
+}
+
+}
+}

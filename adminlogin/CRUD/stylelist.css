@@ -1,0 +1,89 @@
+
+table.user-list-table tr th, table.user-list-table tr td {
+border: 1px solid #000;
+padding: 12px 15px;
+vertical-align: middle;
+}
+
+.addbtn {
+    margin: 0 20px;
+}
+.btn-wrapper {
+    display: flex;
+    /* padding: 20px; */
+}
+.reg-form-container input, .reg-form-container select {
+    height: 40px;
+    max-width: 400px;
+    width: 100%;
+    padding:10px 15px;
+    margin-bottom: 20px;
+    
+}
+.reg-form-container form {
+    max-width: 400px;
+    width: 100%;
+        margin: 0 auto;    
+}
+.reg-form-container{
+	text-align: center;
+    margin: auto;
+}
+table.user-list-table {
+    margin: 0 auto;
+}
+.reg-form-div {
+    width: 100%;
+    font-size: 16px;
+    color: #000;
+        padding: 30px;
+}
+table.user-list-table.productlist{
+    margin: 0 0 10% 0;
+}
+table.user-list-table.categorylist {
+    margin-bottom: 10%;
+}
+
+tr.categorylist_tableheading,tr.productlist_heading {
+    background: #d3d3f9de;
+}
+i#delete_category {
+    color: red;
+}
+i.material-icons.categorylist_edit_btn, i.material-icons.productlist_edit_btn{
+    color: #09cf09;
+}
+tbody.categorylist_tablebody,{
+    background: aliceblue;
+}
+.title-wrapper.category_title h3, .reg-form-container.product_wrap h3 {
+    font-size: 35px;
+    padding: 20px;
+}
+.reg-form-container.category-wrap, .reg-form-container.product_wrap {
+    width: 50%;
+    border: 1px solid black;
+}
+form.savecategory-wrap,form.add-product_wrap {
+    padding: 15px;
+    background: #b7efdc;
+}
+.title-wrapper.category_title,.title-wrapper.product_title {
+    background: #f3e4d0;
+}
+
+input[type="submit"]:hover {
+    background: #07d807;
+}
+i#delete_product {
+    color: red;
+}
+
+@media screen and (max-width: 800px){ 
+.reg-form-container.category-wrap, .reg-form-container.product_wrap {
+    width: 100%;
+}
+.reg-form-div {
+    padding: 10px;
+}
